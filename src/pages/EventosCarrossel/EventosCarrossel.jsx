@@ -3,8 +3,8 @@ import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import Styles from './EventosCarrossel.module.css';
-import evento1 from '../../images/evento1.avif';
-import evento2 from '../../images/evento2.png';
+import tdc from '../../images/tdc.png';
+import mAIo from '../../images/mAIo.png';
 import evento3 from '../../images/evento3.png';
 import evento4 from '../../images/evento4.jpg';
 import evento5 from '../../images/evento5.jpg';
@@ -12,22 +12,22 @@ import evento5 from '../../images/evento5.jpg';
 function EventosCarrossel() {
     const eventos = [
         {
-            imagem: evento1,
-            tipo: 'Presencial',
-            titulo: 'Coding Developers',
+            imagem: tdc,
+            tipo: 'Híbrido',
+            titulo: 'The Developers Conference',
             data: '25/04/2025 às 23:59:00',
             inicio: '18/07/2025 às 09:30:00',
             fim: '19/07/2025 às 19:00:00',
-            local: 'Viasoft Experience, São Paulo - SP',
+            local: 'Avenida Professora Ida Kolb, 513 Jardim das Laranjeiras - São Paulo - SP',
         },
         {
-            imagem: evento2,
+            imagem: mAIo,
             tipo: 'Presencial',
-            titulo: 'Hackathon de IA',
+            titulo: 'mAIo – Artificial Intelligence Experience 2025',
             data: '28/04/2025 às 18:00:00',
             inicio: '20/07/2025 às 10:00:00',
             fim: '21/07/2025 às 16:00:00',
-            local: 'Espaço Maker, Curitiba - PR',
+            local: 'Rua Dante Batiston, 248 - Centro - Osasco - SP',
         },
         {
             imagem: evento3,

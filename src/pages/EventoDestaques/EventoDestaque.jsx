@@ -64,7 +64,7 @@ function EventoDestaque() {
                         <p><strong>Previsão Início:</strong> 18/07/2025 às 09:30:00</p>
                         <p><strong>Previsão Fim:</strong> 19/07/2025 às 19:00:00</p>
                         <p>Viasoft Experience, São Paulo - SP</p>
-                        <a className={Styles.saibaMais} href="#">Saiba mais ➤</a>
+                        <a className={Styles.saibaMais} href="https://codecon.dev/summit">Saiba mais ➤</a>
                     </div>
                 </div>
             </div>
