@@ -1,0 +1,115 @@
+.container {
+    background: linear-gradient(to right, #002d3d, #003b4f);
+    padding: 2rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+.header h2 span {
+    color: #00f0ff;
+    font-weight: bold;
+}
+
+.header p {
+    color: #d0f6ff;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.card {
+    background-color: #d7f4fa;
+    color: black;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-top: 2rem;
+    text-align: left;
+
+    max-width: 800px;
+    width: 100%;
+}
+
+.card h3 {
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+.card h4 {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagemBloco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagemBloco img {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.timer {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.timer div {
+    background: white;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 4px;
+    text-align: center;
+    min-width: 50px;
+}
+
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.presencial {
+    background-color: #007fff;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.saibaMais {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #1a59ff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
