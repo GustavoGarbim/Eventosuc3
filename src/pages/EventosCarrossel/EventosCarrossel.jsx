@@ -64,7 +64,7 @@ function EventosCarrossel() {
             <Swiper
                 modules={[Navigation]}
                 navigation
-                slidesPerView={4}
+                slidesPerView={3}
                 spaceBetween={1}
             >
                 {eventos.map((evento, index) => (

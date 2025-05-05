@@ -1,5 +1,5 @@
 .container {
-    background: linear-gradient(to right, #002d3d, #003b4f);
+    background: linear-gradient(to right, #0dbeff, #003b4f);
     padding: 2rem;
     color: white;
     text-align: center;
@@ -7,6 +7,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: tahoma;
+    margin-bottom: 3rem;
 }
 
 .header h2 {
